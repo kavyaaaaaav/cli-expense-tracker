@@ -47,21 +47,19 @@ def summary():
 
 # menu loop
 while True:
-    print("\n1.Add  2.Show  3.Delete  4.Summary  5.Exit")
-    choice = input("Choose: ")
-
-    if choice == "1":
+    print("\n1.Add 2. Show 3. Delete 4. Summary 5. Exit")
+    choice=input('choose')
+    if choice=='1':
         add()
-    elif choice == "2":
+    elif choice=='2':
         show()
-    elif choice == "3":
+    elif choice()=='3':
         delete()
-    elif choice == "4":
+    elif choice()=="4":
         summary()
-    elif choice == "5":
-        break
+    elif choice=='5':
+        break 
     else:
-        print("Invalid 😭")
-    
+        print("invalid")
     
 
